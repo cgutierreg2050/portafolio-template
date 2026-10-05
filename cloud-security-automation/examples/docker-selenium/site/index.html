@@ -1,0 +1,5 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Synthetic lookup</title>
+<h1>Synthetic operational lookup</h1><p>Portfolio fixture: no personal or business data.</p>
+<label for="reference">Reference</label><input id="reference">
+<button id="lookup">Look up</button><output id="result" aria-live="polite"></output>
+<script>document.getElementById('lookup').addEventListener('click',()=>{const v=document.getElementById('reference').value;document.getElementById('result').textContent=v==='DEMO-001'?'DEMO-001 | ready':'not found';});</script></html>

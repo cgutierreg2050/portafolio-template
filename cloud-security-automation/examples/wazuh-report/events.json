@@ -1,0 +1,42 @@
+[
+  {
+    "id": "demo-001",
+    "timestamp": "2026-01-05T10:00:00Z",
+    "agent": {
+      "name": "demo-workstation-01"
+    },
+    "rule": {
+      "level": 10
+    }
+  },
+  {
+    "id": "demo-002",
+    "timestamp": "2026-01-06T11:00:00Z",
+    "agent": {
+      "name": "demo-workstation-01"
+    },
+    "rule": {
+      "level": 13
+    }
+  },
+  {
+    "id": "demo-003",
+    "timestamp": "2026-01-07T12:00:00Z",
+    "agent": {
+      "name": "demo-server-02"
+    },
+    "rule": {
+      "level": 5
+    }
+  },
+  {
+    "id": "demo-001",
+    "timestamp": "2026-01-05T10:00:00Z",
+    "agent": {
+      "name": "demo-workstation-01"
+    },
+    "rule": {
+      "level": 10
+    }
+  }
+]

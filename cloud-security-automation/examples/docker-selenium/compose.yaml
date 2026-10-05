@@ -1,0 +1,23 @@
+name: kristian-portfolio-demo
+services:
+  demo-site:
+    image: python:3.11-slim-bookworm
+    command: ["python", "-m", "http.server", "8000", "--directory", "/site"]
+    volumes: ["./site:/site:ro"]
+    networks: [demo]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/', timeout=2)"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+  worker:
+    build: .
+    depends_on:
+      demo-site:
+        condition: service_healthy
+    networks: [demo]
+    shm_size: 256mb
+    mem_limit: 768m
+networks:
+  demo:
+    internal: true
