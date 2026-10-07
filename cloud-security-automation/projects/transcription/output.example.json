@@ -1,0 +1,28 @@
+{
+  "project": "transcription",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "capacity_mb": 9600.0,
+    "batches": [
+      {
+        "jobs": [
+          "DEMO-A1",
+          "DEMO-A2"
+        ],
+        "estimated_mb": 8000
+      },
+      {
+        "jobs": [
+          "DEMO-A3"
+        ],
+        "estimated_mb": 6000
+      }
+    ],
+    "rejected": [
+      "DEMO-A4"
+    ],
+    "audio_processed": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "synthetic": true,
+  "gpu_mb": 12000,
+  "utilization_limit": 0.8,
+  "jobs": [
+    {
+      "id": "DEMO-A1",
+      "estimated_mb": 4000
+    },
+    {
+      "id": "DEMO-A2",
+      "estimated_mb": 4000
+    },
+    {
+      "id": "DEMO-A3",
+      "estimated_mb": 6000
+    },
+    {
+      "id": "DEMO-A4",
+      "estimated_mb": 11000
+    }
+  ]
+}

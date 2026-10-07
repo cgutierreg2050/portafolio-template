@@ -1,0 +1,32 @@
+{
+  "project": "purview-dlp",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "documents": [
+      {
+        "id": "DEMO-P1",
+        "label": "Confidential",
+        "external_share": "block-proposal",
+        "retention": "preserve-legal-hold",
+        "content_returned": false
+      },
+      {
+        "id": "DEMO-P2",
+        "label": "General",
+        "external_share": "no-change",
+        "retention": "review-policy",
+        "content_returned": false
+      },
+      {
+        "id": "DEMO-P3",
+        "label": "Confidential",
+        "external_share": "no-change",
+        "retention": "review-policy",
+        "content_returned": false
+      }
+    ],
+    "policy_applied": false
+  }
+}

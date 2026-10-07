@@ -1,0 +1,29 @@
+{
+  "project": "applocker-wdac",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "decisions": [
+      {
+        "id": "DEMO-APP1",
+        "decision": "allow",
+        "policy_mode": "audit",
+        "effective_action": "log-only"
+      },
+      {
+        "id": "DEMO-APP2",
+        "decision": "deny",
+        "policy_mode": "audit",
+        "effective_action": "log-only"
+      },
+      {
+        "id": "DEMO-APP3",
+        "decision": "deny",
+        "policy_mode": "audit",
+        "effective_action": "log-only"
+      }
+    ],
+    "deployment_performed": false
+  }
+}

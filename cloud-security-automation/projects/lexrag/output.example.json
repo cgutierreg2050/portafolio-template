@@ -1,0 +1,19 @@
+{
+  "project": "lexrag",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "matches": [
+      {
+        "id": "DEMO-DOC1",
+        "score": 2,
+        "citation": "fixture://document-1#p1",
+        "text": "Synthetic backup and restore procedure."
+      }
+    ],
+    "status": "sources-found",
+    "answer_generated": false,
+    "method": "lexical-baseline"
+  }
+}

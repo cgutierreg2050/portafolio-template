@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "resources": [
+    {
+      "id": "DEMO-network",
+      "action": "create",
+      "public_management": false,
+      "tags": {
+        "owner": "demo-team",
+        "environment": "lab"
+      }
+    },
+    {
+      "id": "DEMO-vm",
+      "action": "replace",
+      "public_management": true,
+      "tags": {
+        "environment": "lab"
+      }
+    }
+  ]
+}

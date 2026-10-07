@@ -1,0 +1,27 @@
+{
+  "project": "m365-hardening",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "findings": [
+      {
+        "entity": "DEMO-U2",
+        "finding": "unapproved-privileged-identity",
+        "priority": "high"
+      },
+      {
+        "entity": "DEMO-U2",
+        "finding": "privileged-mfa-gap",
+        "priority": "high"
+      },
+      {
+        "entity": "DEMO-F1",
+        "finding": "unapproved-external-forward",
+        "priority": "high"
+      }
+    ],
+    "automatic_deletion": false,
+    "sessions_revoked": false
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "synthetic": true,
+  "active_users": [
+    "demo-owner",
+    "demo-reviewer"
+  ],
+  "pilot_sites": [
+    "DEMO-S1",
+    "DEMO-S2"
+  ],
+  "sites": [
+    {
+      "id": "DEMO-S1",
+      "owners": [
+        "demo-owner"
+      ],
+      "proposed_owner": "demo-reviewer",
+      "backup_verified": true
+    },
+    {
+      "id": "DEMO-S2",
+      "owners": [
+        "demo-owner"
+      ],
+      "proposed_owner": "inactive-demo",
+      "backup_verified": true
+    },
+    {
+      "id": "DEMO-S3",
+      "owners": [
+        "demo-owner"
+      ],
+      "proposed_owner": "demo-reviewer",
+      "backup_verified": true
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "synthetic": true,
+  "devices": [
+    {
+      "id": "DEMO-E1",
+      "in_pilot": true,
+      "online": true,
+      "reboot_pending": false,
+      "installed_kbs": []
+    },
+    {
+      "id": "DEMO-E2",
+      "in_pilot": true,
+      "online": true,
+      "reboot_pending": true,
+      "installed_kbs": []
+    },
+    {
+      "id": "DEMO-E3",
+      "in_pilot": true,
+      "online": true,
+      "reboot_pending": false,
+      "installed_kbs": [
+        "DEMO-KB-001"
+      ]
+    }
+  ],
+  "cve_to_kb": {
+    "DEMO-CVE-001": "DEMO-KB-001"
+  },
+  "findings": [
+    {
+      "device": "DEMO-E1",
+      "cve": "DEMO-CVE-001",
+      "post_scan_clear": false
+    },
+    {
+      "device": "DEMO-E2",
+      "cve": "DEMO-CVE-001",
+      "post_scan_clear": false
+    },
+    {
+      "device": "DEMO-E3",
+      "cve": "DEMO-CVE-001",
+      "post_scan_clear": true
+    }
+  ]
+}

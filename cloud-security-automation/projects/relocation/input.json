@@ -1,0 +1,40 @@
+{
+  "synthetic": true,
+  "target_days": 15,
+  "tasks": [
+    {
+      "id": "site",
+      "days": 2,
+      "depends_on": []
+    },
+    {
+      "id": "network",
+      "days": 3,
+      "depends_on": [
+        "site"
+      ]
+    },
+    {
+      "id": "servers",
+      "days": 2,
+      "depends_on": [
+        "network"
+      ]
+    },
+    {
+      "id": "telephony",
+      "days": 2,
+      "depends_on": [
+        "network"
+      ]
+    },
+    {
+      "id": "validation",
+      "days": 1,
+      "depends_on": [
+        "servers",
+        "telephony"
+      ]
+    }
+  ]
+}

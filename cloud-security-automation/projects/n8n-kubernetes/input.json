@@ -1,0 +1,10 @@
+{
+  "synthetic": true,
+  "replicas": 1,
+  "service_type": "ClusterIP",
+  "persistent_storage": true,
+  "readiness_probe": true,
+  "cloudflare_access": true,
+  "tunnel": true,
+  "encryption_key_secret_ref": "demo-secret-reference-only"
+}

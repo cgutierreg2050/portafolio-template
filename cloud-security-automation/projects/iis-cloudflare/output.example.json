@@ -1,0 +1,25 @@
+{
+  "project": "iis-cloudflare",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "portals": [
+      {
+        "id": "DEMO-WEB1",
+        "review": [],
+        "fixture_checks_pass": true
+      },
+      {
+        "id": "DEMO-WEB2",
+        "review": [
+          "origin-tls-missing",
+          "access-policy-missing",
+          "origin-bypass-exposure",
+          "certificate-expired"
+        ],
+        "fixture_checks_pass": false
+      }
+    ]
+  }
+}

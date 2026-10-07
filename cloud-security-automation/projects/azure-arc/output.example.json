@@ -1,0 +1,23 @@
+{
+  "project": "azure-arc",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "devices": [
+      {
+        "id": "DEMO-VM1",
+        "state": "recently-observed"
+      },
+      {
+        "id": "DEMO-VM2",
+        "state": "stale"
+      },
+      {
+        "id": "DEMO-VM3",
+        "state": "not-observed-in-arc"
+      }
+    ],
+    "enrollment_performed": false
+  }
+}

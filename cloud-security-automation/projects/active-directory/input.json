@@ -1,0 +1,25 @@
+{
+  "synthetic": true,
+  "controllers": [
+    {
+      "id": "DEMO-DC1",
+      "replication_ok": true,
+      "dns_ok": true,
+      "time_sync_ok": true
+    },
+    {
+      "id": "DEMO-DC2",
+      "replication_ok": false,
+      "dns_ok": true,
+      "time_sync_ok": true
+    }
+  ],
+  "fsmo": {
+    "schema": "DEMO-DC1",
+    "naming": "DEMO-DC1",
+    "rid": "DEMO-DC1",
+    "pdc": "DEMO-DC1",
+    "infrastructure": "DEMO-DC1"
+  },
+  "backup_restore_tested": true
+}

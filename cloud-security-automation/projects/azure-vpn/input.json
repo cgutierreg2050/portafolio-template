@@ -1,0 +1,10 @@
+{
+  "synthetic": true,
+  "on_prem": "192.0.2.0/24",
+  "azure": "198.51.100.0/24",
+  "vm_ip": "198.51.100.10",
+  "routes_to_on_prem": [
+    "192.0.2.0/24"
+  ],
+  "dns_forwarding": true
+}

@@ -1,0 +1,27 @@
+{
+  "project": "monitoring",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "alerts": [
+      {
+        "host": "DEMO-H1",
+        "issues": [
+          "cpu",
+          "disk"
+        ],
+        "priority": "review"
+      },
+      {
+        "host": "DEMO-H2",
+        "issues": [
+          "unreachable",
+          "security-event"
+        ],
+        "priority": "critical"
+      }
+    ],
+    "notifications_sent": 0
+  }
+}

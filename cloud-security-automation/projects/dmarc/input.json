@@ -1,0 +1,34 @@
+{
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "DEMO-M1",
+      "header_from": "sender.example.test",
+      "mail_from": "sender.example.test",
+      "spf": "pass",
+      "dkim": [],
+      "forwarded": false
+    },
+    {
+      "id": "DEMO-M2",
+      "header_from": "sender.example.test",
+      "mail_from": "relay.example.test",
+      "spf": "pass",
+      "dkim": [
+        {
+          "domain": "sender.example.test",
+          "result": "pass"
+        }
+      ],
+      "forwarded": true
+    },
+    {
+      "id": "DEMO-M3",
+      "header_from": "sender.example.test",
+      "mail_from": "relay.example.test",
+      "spf": "pass",
+      "dkim": [],
+      "forwarded": true
+    }
+  ]
+}

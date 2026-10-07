@@ -1,0 +1,14 @@
+{
+  "project": "kvm-recovery",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "current_path": "/demo/old/DEMO-VM.qcow2",
+    "proposed_path": "/demo/images/DEMO-VM.qcow2",
+    "next_step": "backup-xml-before-path-review",
+    "bitlocker_limits_offline_inspection": true,
+    "ad_trust_resolved": false,
+    "vm_modified": false
+  }
+}

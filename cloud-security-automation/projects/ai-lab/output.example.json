@@ -1,0 +1,18 @@
+{
+  "project": "ai-lab",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "weights_gib": 3.26,
+    "available_gib_after_reserve": 10,
+    "weights_fit": true,
+    "inference_validated": false,
+    "excluded": [
+      "kv-cache",
+      "activations",
+      "quantization-metadata",
+      "allocator-overhead"
+    ]
+  }
+}

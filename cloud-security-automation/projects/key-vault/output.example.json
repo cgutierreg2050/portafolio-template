@@ -1,0 +1,24 @@
+{
+  "project": "key-vault",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "plan": [
+      {
+        "source_id": "DEMO-K1",
+        "proposed_name": "demo-reporting"
+      },
+      {
+        "source_id": "DEMO-K2",
+        "proposed_name": "demo-inventory"
+      },
+      {
+        "source_id": "DEMO-K3",
+        "proposed_name": "demo-archive"
+      }
+    ],
+    "secret_values_read": 0,
+    "azure_writes": 0
+  }
+}

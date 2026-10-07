@@ -1,0 +1,18 @@
+{
+  "project": "wazuh-reporting",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "start": "2026-09-21T00:00:00+00:00",
+    "end_exclusive": "2026-09-28T00:00:00+00:00",
+    "event_count": 2,
+    "duplicates": 1,
+    "by_agent": {
+      "DEMO-AG1": 1,
+      "DEMO-AG2": 1
+    },
+    "high_or_critical": 1,
+    "messages_sent": 0
+  }
+}

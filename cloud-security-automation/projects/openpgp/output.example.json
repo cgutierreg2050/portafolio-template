@@ -1,0 +1,15 @@
+{
+  "project": "openpgp",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "metadata_ready": false,
+    "reasons": [
+      "execution-context-mismatch",
+      "private-key-unavailable-in-context"
+    ],
+    "decryption_performed": false,
+    "transfer_performed": false
+  }
+}

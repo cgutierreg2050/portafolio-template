@@ -1,0 +1,18 @@
+{
+  "synthetic": true,
+  "as_of": "2026-10-01T00:00:00Z",
+  "recipient_subkey": "DEMO-SUBKEY-01",
+  "execution_context": "SYSTEM",
+  "keys": [
+    {
+      "id": "DEMO-SUBKEY-01",
+      "context": "interactive-demo",
+      "expires": "2027-10-01T00:00:00Z",
+      "revoked": false,
+      "capabilities": [
+        "encrypt"
+      ],
+      "private_material_available": false
+    }
+  ]
+}

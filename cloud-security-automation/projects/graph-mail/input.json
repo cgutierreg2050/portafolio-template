@@ -1,0 +1,28 @@
+{
+  "synthetic": true,
+  "campaign": "DEMO-2026",
+  "subject": "Synthetic portfolio example",
+  "batch_size": 2,
+  "recipients": [
+    {
+      "id": "DEMO-R1",
+      "email": "ana@example.test",
+      "name": "Ana <Demo>"
+    },
+    {
+      "id": "DEMO-R2",
+      "email": "luis@example.test",
+      "name": "Luis Demo"
+    },
+    {
+      "id": "DEMO-R3",
+      "email": "ANA@example.test",
+      "name": "Duplicate"
+    },
+    {
+      "id": "DEMO-R4",
+      "email": "not-an-address",
+      "name": "Invalid"
+    }
+  ]
+}

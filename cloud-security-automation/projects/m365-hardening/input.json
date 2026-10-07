@@ -1,0 +1,29 @@
+{
+  "synthetic": true,
+  "users": [
+    {
+      "id": "DEMO-U1",
+      "privileged": true,
+      "approved": true,
+      "mfa": true
+    },
+    {
+      "id": "DEMO-U2",
+      "privileged": true,
+      "approved": false,
+      "mfa": false
+    }
+  ],
+  "forwarding_rules": [
+    {
+      "id": "DEMO-F1",
+      "external": true,
+      "approved": false
+    },
+    {
+      "id": "DEMO-F2",
+      "external": true,
+      "approved": true
+    }
+  ]
+}

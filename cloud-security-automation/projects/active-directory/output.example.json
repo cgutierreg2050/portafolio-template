@@ -1,0 +1,14 @@
+{
+  "project": "active-directory",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "issues": [
+      "DEMO-DC2:replication"
+    ],
+    "prechecks_clear": false,
+    "migration_state": "planning",
+    "roles_transferred": false
+  }
+}

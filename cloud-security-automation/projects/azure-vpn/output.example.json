@@ -1,0 +1,11 @@
+{
+  "project": "azure-vpn",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "issues": [],
+    "topology_checks_pass": true,
+    "tunnel_tested": false
+  }
+}

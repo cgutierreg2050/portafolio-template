@@ -1,0 +1,26 @@
+{
+  "synthetic": true,
+  "workers": 3,
+  "jobs": [
+    {
+      "id": "DEMO-J1",
+      "cost": 8
+    },
+    {
+      "id": "DEMO-J2",
+      "cost": 5
+    },
+    {
+      "id": "DEMO-J3",
+      "cost": 3
+    },
+    {
+      "id": "DEMO-J4",
+      "cost": 2
+    },
+    {
+      "id": "DEMO-J5",
+      "cost": 1
+    }
+  ]
+}

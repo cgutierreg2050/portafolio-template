@@ -1,0 +1,28 @@
+{
+  "synthetic": true,
+  "as_of": "2026-10-01T00:00:00Z",
+  "cutoff": "2023-10-01T00:00:00Z",
+  "documents": [
+    {
+      "id": "DEMO-D1",
+      "last_activity": "2021-02-01T00:00:00Z",
+      "bytes": 1024,
+      "legal_hold": false,
+      "retain_until": null
+    },
+    {
+      "id": "DEMO-D2",
+      "last_activity": "2020-02-01T00:00:00Z",
+      "bytes": 2048,
+      "legal_hold": true,
+      "retain_until": null
+    },
+    {
+      "id": "DEMO-D3",
+      "last_activity": "2026-02-01T00:00:00Z",
+      "bytes": 4096,
+      "legal_hold": false,
+      "retain_until": null
+    }
+  ]
+}

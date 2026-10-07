@@ -1,0 +1,12 @@
+{
+  "project": "n8n-kubernetes",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "issues": [],
+    "configuration_checks_pass": true,
+    "deployment_performed": false,
+    "high_availability_validated": false
+  }
+}

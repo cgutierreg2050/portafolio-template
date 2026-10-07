@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "as_of": "2026-10-01T00:00:00Z",
+  "portals": [
+    {
+      "id": "DEMO-WEB1",
+      "tls_to_origin": true,
+      "waf": true,
+      "access_policy": true,
+      "origin_public": false,
+      "certificate_expires": "2027-01-01T00:00:00Z"
+    },
+    {
+      "id": "DEMO-WEB2",
+      "tls_to_origin": false,
+      "waf": true,
+      "access_policy": false,
+      "origin_public": true,
+      "certificate_expires": "2026-01-01T00:00:00Z"
+    }
+  ]
+}

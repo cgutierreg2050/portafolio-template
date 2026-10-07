@@ -1,0 +1,29 @@
+{
+  "synthetic": true,
+  "cpu_threshold": 85,
+  "disk_free_threshold": 10,
+  "security_threshold": 12,
+  "hosts": [
+    {
+      "id": "DEMO-H1",
+      "cpu_percent": 90,
+      "disk_free_percent": 8,
+      "reachable": true,
+      "security_level": 3
+    },
+    {
+      "id": "DEMO-H2",
+      "cpu_percent": 10,
+      "disk_free_percent": 70,
+      "reachable": false,
+      "security_level": 14
+    },
+    {
+      "id": "DEMO-H3",
+      "cpu_percent": 20,
+      "disk_free_percent": 60,
+      "reachable": true,
+      "security_level": 2
+    }
+  ]
+}

@@ -1,3 +1,23 @@
+# Runbook: 25 offline demonstrations
+
+## New catalog
+
+From `cloud-security-automation`, use Python 3.11+:
+
+```sh
+python3 demo.py dmarc
+python3 demo.py active-directory --output generated/active-directory.json
+python3 -m unittest discover -s tests -v
+```
+
+Choose any slug from [catalog.json](../projects/catalog.json). Every folder contains a bilingual case note, synthetic `input.json` and checked `output.example.json`. The runner does not contact services or change infrastructure. `--output` writes only the local path supplied.
+
+The catalog's function and implementation fields point to the relevant source. Security/identity examples are in `lab/security.py`; cloud/data examples are in `lab/cloud.py`; infrastructure/reporting examples are in `lab/operations.py`.
+
+To change an example, copy its input, preserve `synthetic: true`, use fictional values, and pass `--input path/to/fixture.json`. Compare the result against the documented boundary. A successful fixture is not an operational approval.
+
+## Original examples
+
 # Demo runbook
 
 ## Preconditions

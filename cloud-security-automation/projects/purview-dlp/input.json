@@ -1,0 +1,24 @@
+{
+  "synthetic": true,
+  "documents": [
+    {
+      "id": "DEMO-P1",
+      "text": "DEMO-RECORD-0001 fictional record",
+      "external": true,
+      "legal_hold": true
+    },
+    {
+      "id": "DEMO-P2",
+      "text": "Public demo notes",
+      "external": true,
+      "legal_hold": false
+    },
+    {
+      "id": "DEMO-P3",
+      "text": "Internal example",
+      "label": "Confidential",
+      "external": false,
+      "legal_hold": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "synthetic": true,
+  "mode": "audit",
+  "rules": [
+    {
+      "publisher": "Demo Publisher",
+      "action": "allow"
+    },
+    {
+      "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "action": "deny"
+    }
+  ],
+  "applications": [
+    {
+      "id": "DEMO-APP1",
+      "publisher": "Demo Publisher",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "id": "DEMO-APP2",
+      "publisher": "Demo Publisher",
+      "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    },
+    {
+      "id": "DEMO-APP3",
+      "publisher": "Unknown Demo",
+      "sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+    }
+  ]
+}

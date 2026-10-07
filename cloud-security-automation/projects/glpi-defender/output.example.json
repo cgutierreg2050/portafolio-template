@@ -1,0 +1,25 @@
+{
+  "project": "glpi-defender",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "missing_tables": [],
+    "schema_preserved": true,
+    "endpoints": [
+      {
+        "id": "DEMO-PC1",
+        "protection_evidence": true,
+        "inventory_mismatch": true,
+        "stale_signatures": false
+      },
+      {
+        "id": "DEMO-PC2",
+        "protection_evidence": false,
+        "inventory_mismatch": true,
+        "stale_signatures": true
+      }
+    ],
+    "database_modified": false
+  }
+}

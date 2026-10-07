@@ -1,0 +1,27 @@
+{
+  "project": "data-lifecycle",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "candidates": [
+      {
+        "id": "DEMO-D1",
+        "bytes": 1024
+      }
+    ],
+    "candidate_bytes": 1024,
+    "excluded": [
+      {
+        "id": "DEMO-D2",
+        "reason": "legal-hold"
+      },
+      {
+        "id": "DEMO-D3",
+        "reason": "recent-activity"
+      }
+    ],
+    "files_moved": 0,
+    "savings_calculated": false
+  }
+}

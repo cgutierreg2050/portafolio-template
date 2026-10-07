@@ -1,0 +1,29 @@
+{
+  "project": "patch-pilot",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "findings": [
+      {
+        "device": "DEMO-E1",
+        "cve": "DEMO-CVE-001",
+        "kb": "DEMO-KB-001",
+        "status": "candidate-for-reviewed-job"
+      },
+      {
+        "device": "DEMO-E2",
+        "cve": "DEMO-CVE-001",
+        "kb": "DEMO-KB-001",
+        "status": "defer-pending-reboot"
+      },
+      {
+        "device": "DEMO-E3",
+        "cve": "DEMO-CVE-001",
+        "kb": "DEMO-KB-001",
+        "status": "verified-closed"
+      }
+    ],
+    "jobs_submitted": 0
+  }
+}

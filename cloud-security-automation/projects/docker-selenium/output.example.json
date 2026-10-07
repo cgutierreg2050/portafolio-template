@@ -1,0 +1,23 @@
+{
+  "project": "docker-selenium",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "assignments": {
+      "0": [
+        "DEMO-J1"
+      ],
+      "1": [
+        "DEMO-J2",
+        "DEMO-J5"
+      ],
+      "2": [
+        "DEMO-J3",
+        "DEMO-J4"
+      ]
+    },
+    "estimated_max_load": 8,
+    "containers_started": 0
+  }
+}

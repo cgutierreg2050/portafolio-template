@@ -1,0 +1,25 @@
+{
+  "synthetic": true,
+  "as_of": "2026-10-01T12:00:00Z",
+  "inventory": [
+    {
+      "id": "DEMO-VM1"
+    },
+    {
+      "id": "DEMO-VM2"
+    },
+    {
+      "id": "DEMO-VM3"
+    }
+  ],
+  "agents": [
+    {
+      "id": "DEMO-VM1",
+      "last_seen": "2026-10-01T11:00:00Z"
+    },
+    {
+      "id": "DEMO-VM2",
+      "last_seen": "2026-09-28T11:00:00Z"
+    }
+  ]
+}

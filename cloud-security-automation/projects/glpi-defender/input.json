@@ -1,0 +1,30 @@
+{
+  "synthetic": true,
+  "schema_before": [
+    "demo_assets",
+    "demo_users"
+  ],
+  "schema_after": [
+    "demo_assets",
+    "demo_users",
+    "demo_new_index"
+  ],
+  "endpoints": [
+    {
+      "id": "DEMO-PC1",
+      "onboarded": true,
+      "service_running": true,
+      "realtime": true,
+      "inventory_protected": false,
+      "signature_age_hours": 4
+    },
+    {
+      "id": "DEMO-PC2",
+      "onboarded": false,
+      "service_running": true,
+      "realtime": false,
+      "inventory_protected": true,
+      "signature_age_hours": 72
+    }
+  ]
+}

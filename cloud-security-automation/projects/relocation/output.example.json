@@ -1,0 +1,33 @@
+{
+  "project": "relocation",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "schedule": {
+      "site": {
+        "start_day": 0,
+        "finish_day": 2
+      },
+      "network": {
+        "start_day": 2,
+        "finish_day": 5
+      },
+      "servers": {
+        "start_day": 5,
+        "finish_day": 7
+      },
+      "telephony": {
+        "start_day": 5,
+        "finish_day": 7
+      },
+      "validation": {
+        "start_day": 7,
+        "finish_day": 8
+      }
+    },
+    "critical_path_days": 8,
+    "within_target": true,
+    "resource_constraints_modeled": false
+  }
+}

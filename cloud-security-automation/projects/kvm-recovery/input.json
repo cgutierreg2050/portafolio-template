@@ -1,0 +1,8 @@
+{
+  "synthetic": true,
+  "domain_xml": "<domain><name>DEMO-VM</name><devices><disk><source file=\"/demo/old/DEMO-VM.qcow2\"/></disk></devices></domain>",
+  "available_disks": [
+    "/demo/images/DEMO-VM.qcow2"
+  ],
+  "bitlocker": true
+}

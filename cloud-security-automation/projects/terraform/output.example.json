@@ -1,0 +1,31 @@
+{
+  "project": "terraform",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "changes": {
+      "create": 1,
+      "replace": 1
+    },
+    "findings": [
+      {
+        "resource": "DEMO-vm",
+        "reason": "destructive-change-needs-review"
+      },
+      {
+        "resource": "DEMO-vm",
+        "reason": "public-management-exposure"
+      },
+      {
+        "resource": "DEMO-vm",
+        "reason": "missing-tags",
+        "tags": [
+          "owner"
+        ]
+      }
+    ],
+    "review_passed": false,
+    "terraform_executed": false
+  }
+}

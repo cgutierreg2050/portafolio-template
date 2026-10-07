@@ -1,0 +1,32 @@
+{
+  "project": "sharepoint",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "changes": [
+      {
+        "site": "DEMO-S1",
+        "before": [
+          "demo-owner"
+        ],
+        "after": [
+          "demo-owner",
+          "demo-reviewer"
+        ],
+        "action": "add-owner-proposal"
+      }
+    ],
+    "deferred": [
+      {
+        "site": "DEMO-S2",
+        "reason": "target-not-active"
+      },
+      {
+        "site": "DEMO-S3",
+        "reason": "outside-pilot"
+      }
+    ],
+    "writes": 0
+  }
+}

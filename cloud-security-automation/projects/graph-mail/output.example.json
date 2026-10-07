@@ -1,0 +1,29 @@
+{
+  "project": "graph-mail",
+  "synthetic": true,
+  "mode": "offline-demonstration",
+  "production_validation": false,
+  "result": {
+    "batches": [
+      [
+        {
+          "id": "1a00a309f51365ec",
+          "to": "ana@example.test",
+          "subject": "Synthetic portfolio example",
+          "html": "<p>Hello Ana &lt;Demo&gt;,</p><p>Synthetic portfolio message.</p>"
+        },
+        {
+          "id": "ed6adb362f604dd9",
+          "to": "luis@example.test",
+          "subject": "Synthetic portfolio example",
+          "html": "<p>Hello Luis Demo,</p><p>Synthetic portfolio message.</p>"
+        }
+      ]
+    ],
+    "invalid_recipients": [
+      "DEMO-R4"
+    ],
+    "sent": 0,
+    "idempotency_note": "local tracking keys only; no Graph deduplication guarantee"
+  }
+}

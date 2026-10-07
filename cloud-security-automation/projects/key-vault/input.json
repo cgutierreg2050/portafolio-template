@@ -1,0 +1,17 @@
+{
+  "synthetic": true,
+  "entries": [
+    {
+      "id": "DEMO-K1",
+      "title": "Demo Reporting"
+    },
+    {
+      "id": "DEMO-K2",
+      "title": "Demo Inventory"
+    },
+    {
+      "id": "DEMO-K3",
+      "title": "Demo Archive"
+    }
+  ]
+}

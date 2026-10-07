@@ -1,0 +1,32 @@
+{
+  "synthetic": true,
+  "principal": "demo-reader",
+  "query": "backup restore",
+  "limit": 3,
+  "documents": [
+    {
+      "id": "DEMO-DOC1",
+      "readers": [
+        "demo-reader"
+      ],
+      "text": "Synthetic backup and restore procedure.",
+      "source": "fixture://document-1#p1"
+    },
+    {
+      "id": "DEMO-DOC2",
+      "readers": [
+        "demo-admin"
+      ],
+      "text": "Synthetic backup restore restricted notes.",
+      "source": "fixture://document-2#p1"
+    },
+    {
+      "id": "DEMO-DOC3",
+      "readers": [
+        "demo-reader"
+      ],
+      "text": "Synthetic network inventory.",
+      "source": "fixture://document-3#p1"
+    }
+  ]
+}
